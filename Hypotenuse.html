@@ -5,19 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="./Hypotenuse.css">
 </head>
 <body>
+    <nav class="navigation">
+        <ul class="list">
+            <li class="list-items"><a class="link" href="IsTriangle.html">Is △?</a></li>
+            <li class="list-items"><a class="link" href="Area.html">Area of △</a></li>
+            <li class="list-items"><a class="link" href="Hypotenuse.html">Hypotenuse of △</a></li>
+            <li class="list-items"><a class="link" href="Quiz.html">Quiz on △</a></li>
+            
+            
+        </ul>
+
+    </nav>
+    <div class="container">
     <h1>Calulate Hypotenuse</h1>
-    <p>Enter the length of two sides of a Right Angled Triangle i.e Perpendicular and Base 
+    <p>Enter the length of two sides of a Right Angled Triangle i.e<br> Perpendicular and Base 
         and you will get length of Hypotenuse as a result -
      </p>
     
-     <label>a=</label> 
+     <label>a(in meter)=</label> 
      <input type="number" class="side-input">
-     <label>b=</label>
+     <label>b(in meter)=</label>
      <input type="number" class="side-input">
      <button id="calculate-hypotenuse">Calculate</button>
-     <div id="output"></div>
+     <div id="output" ></div>
+    </div>
      <script src="./Hypotenuse.js"></script>
 </body>
 </html>

@@ -10,9 +10,9 @@ function isTriangle(){
     const angleSum = calculateSumOfAngles(Number(inputs[0].value),Number(inputs[1].value),
      Number(inputs[2].value));
      if(angleSum===180){
-        output.innerText = "Yay! these angles form a Triangle";
+        output.innerText = "Yay! these angles form a Triangle.";
      }else{
-        output.innerText = "Oops! these angles not form a Triangle";
+        output.innerText = "Oops! these angles not form a Triangle.";
      }
 }
     isTriangleBttn.addEventListener('click', isTriangle)

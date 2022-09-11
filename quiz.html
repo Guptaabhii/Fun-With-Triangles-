@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="./Quiz.css">
 </head>
 <body>
-    <h1>Quiz</h1>
+    <nav class="navigation">
+        <ul class="list">
+            <li class="list-items"><a class="link" href="IsTriangle.html">Is △?</a></li>
+            <li class="list-items"><a class="link" href="Area.html">Area of △</a></li>
+            <li class="list-items"><a class="link" href="Hypotenuse.html">Hypotenuse of △</a></li>
+            <li class="list-items"><a class="link" href="Quiz.html">Quiz on △</a></li>
+            
+            
+        </ul>
+
+    </nav>
+    <h1>Triangle Quiz</h1>
     <form class="quiz-form">
         <div class="question-container">
             <p> 1. What is the third angle for the  triangle where angle1 = 45° and angle2 = 
@@ -82,8 +94,8 @@
         </div>
             
     </form>
-    <button id="summit-answer-btn">Summit Answer</button>
-    <div id="output"></div>
+    <button id="summit-answer-btn" style="font-size:30px;">Summit</button>
+    <div id="output" style="font-size: 30px;"></div>
 
     <script src="./quiz.js"></script>
 </body>
