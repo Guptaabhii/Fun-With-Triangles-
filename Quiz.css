@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #6b7280;
+    background-color: #ffff;
     font-family: 'Lemonada', cursive;
 }
 
@@ -13,7 +13,7 @@ body{
     
 }
 .list{
-    padding-top: 45px;
+    padding-top: 25px;
     padding-left: 10px;
 }
 
@@ -25,7 +25,7 @@ body{
     text-decoration: none;
     color: #ffff;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 h1{
     font-size: 50px;
@@ -47,7 +47,7 @@ width: 120px;
     font-weight:100 ;
     border-radius: 30px solid black;
     background: transparent;
-    color: #ffff;
+    color: black;
 }
 .question-container{
     padding-bottom: 20px;
@@ -57,5 +57,8 @@ width: 120px;
     font-weight: bold;
     font-size: 40px;
 }
-
+#bold-text{
+    font-weight: bolder;
+    font-size: 40px;
+}
 

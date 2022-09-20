@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #6b7280;
+    background-color: #ffff;
     font-family: 'Lemonada', cursive;
 }
 
@@ -13,7 +13,7 @@ body{
     
 }
 .list{
-    padding-top: 45px;
+    padding-top: 25px;
     padding-left: 10px;
 }
 
@@ -27,7 +27,7 @@ body{
     text-decoration: none;
     color: #ffff;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: bold;
     
 }
 .container{
@@ -52,7 +52,9 @@ label{
     height: 50px;
     justify-content: center;
     margin: auto;
-    font-size:25px ;
+    font-size:25px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 #is-triangle-btn{
     width: 120px;
@@ -64,4 +66,8 @@ label{
     font-weight: bold;
     border-radius: 3px solid black;
     background: transparent;
+}
+#bold-text{
+    font-weight: bolder;
+    font-size: 40px;
 }
